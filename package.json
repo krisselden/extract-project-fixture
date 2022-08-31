@@ -1,0 +1,39 @@
+{
+  "name": "extract-project-fixture",
+  "version": "1.0.0",
+  "description": "Extract a fixture from the structure of an existing node project",
+  "license": "BSD-2-Clause",
+  "author": "Kris Selden <kris.selden@gmail.com>",
+  "files": [
+    "bin",
+    "lib",
+    "types"
+  ],
+  "type": "module",
+  "types": "./types/index.d.ts",
+  "bin": "./bin/extract-project-fixture.cjs",
+  "scripts": {
+    "prepare": "tsc"
+  },
+  "dependencies": {
+    "@npmcli/arborist": "^5.1.1",
+    "@types/node": ">=16",
+    "@types/tar-stream": "^2.2.2",
+    "tar-stream": "^2.2.0",
+    "yargs": "^17.5.1"
+  },
+  "devDependencies": {
+    "@types/yargs": "^17.0.10",
+    "typescript": "^4.8.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "exports": {
+    "default": "./lib/index.js"
+  },
+  "packageManager": "yarn@3.2.2",
+  "volta": {
+    "node": "16.16.0"
+  }
+}

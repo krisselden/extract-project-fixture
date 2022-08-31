@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
+    "strict": true,
+    "target": "ES2020",
+    "module": "ES2020",
+    "moduleResolution": "node",
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "rootDir": "lib",
+    "declarationDir": "types"
+  },
+  "include": ["globals.d.ts", "lib/index.js", "lib/*.js"]
+}
