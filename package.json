@@ -2,6 +2,8 @@
   "name": "extract-project-fixture",
   "version": "1.0.0",
   "description": "Extract a fixture from the structure of an existing node project",
+  "homepage": "https://github.com/krisselden/extract-project-fixture#readme",
+  "repository": "github:krisselden/extract-project-fixture",
   "license": "BSD-2-Clause",
   "author": "Kris Selden <kris.selden@gmail.com>",
   "files": [
@@ -31,6 +33,9 @@
   },
   "exports": {
     "default": "./lib/index.js"
+  },
+  "issues": {
+    "url": "https://github.com/krisselden/extract-project-fixture/issues"
   },
   "packageManager": "yarn@3.2.2",
   "volta": {
