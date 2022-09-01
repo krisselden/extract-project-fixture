@@ -1,6 +1,6 @@
 {
   "name": "extract-project-fixture",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Extract a fixture from the structure of an existing node project",
   "homepage": "https://github.com/krisselden/extract-project-fixture#readme",
   "repository": "github:krisselden/extract-project-fixture",
